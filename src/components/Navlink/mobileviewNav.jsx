@@ -31,7 +31,7 @@ const HideSideLink = ()  => {
 }
     return(
         <div className="lg:hidden flex flex-row py-[10px]  fixed top-0 left-0 right-0 w-full px-[20px] items-center overflow-x-hidden bg-Tp  gap-5 justify-around">
-            <div className="font-myfont"><h1 className="uppercase text-slate-100 font-bold text-[30px] ">HomeDecor</h1></div>
+            <div className="font-myfont"><h1 className="uppercase text-slate-100 font-bold text-[20px] md:text-[30px] ">HomeDecor</h1></div>
 
 
 <ul className={`flex fixed transition ease-out duration-500 top-[65px] py-[40px] bg-Tp w-[50%] h-full ${sideLink}  font-fonty flex-col text-slate-200  gap-5 items-center`}>
@@ -45,12 +45,12 @@ const HideSideLink = ()  => {
 <li><Link to='/' className="text-[17px]">Featured</Link></li>
 </ul>
 
-<div className="flex text-slate-100 flex-row gap-3  ">
-    <BsSearch className="text-[25px] "/>
-    <AiFillHeart className="text-[25px] "/>
-    <AiFillShopping className="text-[25px] "/>
-  { navIcons.showIcon && <FaBars onClick={ShowSideLink} className="text-[25px] "/>}
-  { navIcons.hideIcon &&  <HiOutlineXMark onClick={HideSideLink} className="text-[25px] "/>}
+<div className="flex text-slate-100 items-center flex-row gap-3  ">
+    <BsSearch className="text-[20px] md:text-[25px] "/>
+    <AiFillHeart className="text-[20px] md:text-[25px]  "/>
+    <AiFillShopping className="text-[20px] md:text-[25px] "/>
+  { navIcons.showIcon && <FaBars onClick={ShowSideLink} className="text-[20px] md:text-[25px]  "/>}
+  { navIcons.hideIcon &&  <HiOutlineXMark onClick={HideSideLink} className="text-[20px] md:text-[25px] "/>}
 </div>
 
         </div>
