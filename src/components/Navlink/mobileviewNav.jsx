@@ -46,11 +46,11 @@ const HideSideLink = ()  => {
 </ul>
 
 <div className="flex text-slate-100 items-center flex-row gap-3  ">
-    <BsSearch className="text-[20px] md:text-[25px] "/>
-    <AiFillHeart className="text-[20px] md:text-[25px]  "/>
-    <AiFillShopping className="text-[20px] md:text-[25px] "/>
-  { navIcons.showIcon && <FaBars onClick={ShowSideLink} className="text-[20px] md:text-[25px]  "/>}
-  { navIcons.hideIcon &&  <HiOutlineXMark onClick={HideSideLink} className="text-[20px] md:text-[25px] "/>}
+    <BsSearch className="text-[22px] md:text-[25px] "/>
+    <AiFillHeart className="text-[22px] md:text-[25px]  "/>
+    <AiFillShopping className="text-[22px] md:text-[25px] "/>
+  { navIcons.showIcon && <FaBars onClick={ShowSideLink} className="text-[22px] md:text-[25px]  "/>}
+  { navIcons.hideIcon &&  <HiOutlineXMark onClick={HideSideLink} className="text-[22px] md:text-[25px] "/>}
 </div>
 
         </div>
