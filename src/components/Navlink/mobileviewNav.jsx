@@ -34,7 +34,7 @@ const HideSideLink = ()  => {
             <div className="font-myfont"><h1 className="uppercase text-slate-100 font-bold text-[20px] md:text-[30px] ">HomeDecor</h1></div>
 
 
-<ul className={`flex fixed transition ease-out duration-500 top-[65px] py-[40px] bg-Tp w-[50%] h-full ${sideLink}  font-fonty flex-col text-slate-200  gap-5 items-center`}>
+<ul className={`flex fixed transition ease-out duration-500 top-[50px] py-[40px] bg-black w-[50%] h-full ${sideLink}  font-fonty flex-col text-slate-200  gap-5 items-center`}>
 <li><Link to='/' className="text-[17px] " >Home</Link></li>
 <li><Link to='/' className="text-[17px]">Bedroom</Link></li>
 <li><Link to='/' className="text-[17px]">Living Room</Link></li>
