@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import {AiFillShopping, AiFillHeart} from 'react-icons/ai';
 import { Bed } from "./Bed/Bed";
 import { Dressers } from "./Dresser/Dresser";
+import { Nightstands } from "./Nightstand/Nightstand";
 
 export const Bedroom = () => {
     return(
@@ -21,6 +22,7 @@ export const Bedroom = () => {
         </div>
         <Bed/>
         <Dressers/>
+        <Nightstands/>
        </div>
         </div>
     )
