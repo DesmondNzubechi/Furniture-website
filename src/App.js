@@ -9,7 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-  <DesktopNav/>
+  <DesktopNav
+  className='fixed bg-red-500 bottom-0'
+  />
   <MobileNav/>
   <Home/>
     </div>
