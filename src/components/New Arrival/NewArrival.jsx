@@ -69,17 +69,24 @@ newArrivalObj.map(items => (
 
     
     <div className="md:p-3 p-1 rounded relative flex flex-col justify-center items-center    border my-[10px]  md:min-w-[150px] ">
-        <div className=" p-4 max-w-[300px] ">
-        <img src={items.Img} alt="" className="w-full" />
-        </div>
-        <i className="absolute top-0 right-0 m-2 bg-Icon px-[10px] py-[2px] rounded-[2px] text-slate-50 ">New</i>
-        <div className="flex absolute bottom-0 left-0 right-0  bg-Tp p-2 flex-row justify-between ">
-            <h1 className="md:text-[20px] text-[12px] text-white font-fonty uppercase ">{items.name}</h1>
-            <div className="flex flex-row gap-2 items-center">
-            <AiFillHeart className="text-[20px] p-1  text-red-500 shadow rounded-full md:text-[30px]  "/>
-    <AiFillShopping className="text-[20px] p-1 text-white bg-slate-500 rounded-full  md:text-[35px] "/>
+    <div className=" p-4 max-w-[300px] ">
+    <img src={items.Img} alt="" className="w-full" />
+    </div>
+    <p className="absolute top-2 left-2 text-[12px] font-bold  text-slate-900  ">$400</p>
+    <strong className="absolute top-0 right-0 m-2 bg-Icon md:text-[15px] text-[10px] px-[10px] py-[2px] rounded-[2px] text-slate-50 ">New</strong>
+    <div className="flex absolute bottom-0 left-0 right-0  bg-Tp p-1 flex-row justify-between ">
+        <div>
+        <h1 className="md:text-[20px] text-[12px] text-white font-fonty uppercase ">{items.name}</h1>
+            <div>
+              {  /*<span className="font-myfont md:text-[15px] text-[12px] text-slate-100 ">$200</span>*/ }
+              
             </div>
         </div>
+        <div className="flex flex-row gap-2 items-center">
+        <AiFillHeart className="text-[20px] p-1  text-red-500 shadow rounded-full md:text-[30px]  "/>
+<AiFillShopping className="text-[20px] p-1 text-white bg-slate-500 rounded-full  md:text-[35px] "/>
+        </div>
+    </div>
     </div>
 ))
 }

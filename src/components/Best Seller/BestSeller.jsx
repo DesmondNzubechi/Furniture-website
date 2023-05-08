@@ -72,13 +72,13 @@ newArrivalObj.map(items => (
         <div className=" p-4 max-w-[300px] ">
         <img src={items.Img} alt="" className="w-full" />
         </div>
-        <p className="absolute top-2 left-2 text-[12px] font-semibold line-through text-slate-500  ">$400</p>
-        <strong className="absolute top-0 right-0 m-2 bg-Icon px-[10px] py-[2px] rounded-[2px] text-slate-50 ">Top rated</strong>
+        <p className="absolute top-2 left-2 text-[12px] font-bold  text-slate-900  ">$400</p>
+        <strong className="absolute top-0 right-0 m-2 bg-Icon md:text-[15px] text-[10px] px-[10px] py-[2px] rounded-[2px] text-slate-50 ">Top rated</strong>
         <div className="flex absolute bottom-0 left-0 right-0  bg-Tp p-1 flex-row justify-between ">
             <div>
             <h1 className="md:text-[20px] text-[12px] text-white font-fonty uppercase ">{items.name}</h1>
                 <div>
-                    <span className="font-myfont md:text-[15px] text-[12px] text-slate-100 ">$200</span>
+                  {  /*<span className="font-myfont md:text-[15px] text-[12px] text-slate-100 ">$200</span>*/ }
                   
                 </div>
             </div>
