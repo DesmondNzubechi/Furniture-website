@@ -1,4 +1,14 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper";
+
 import newArrivalImg1 from '../../assets/circleT.avif';
 import newArrivalImg2 from '../../assets/cushion1.avif';
 import newArrivalImg3 from '../../assets/cushion2.avif';
@@ -48,13 +58,17 @@ let newArrivalObj = [
 
 export const NewArrival = () => {
     return(
-        <div className="py-[50px] ">
+        <div className="py-[50px] flex flex-row justify-center ">
        <div>
         <h1 className="uppercase my-[20px] p-1 text-center border-b-[4px] border-slate-500 shadow-lg w-fit font-myfont text-[25px] md:text-[40px] ">New arrival</h1>
-     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 overflow-x-auto ">
+     <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 overflow-x-auto ">
 {
 newArrivalObj.map(items => (
-    <div className="p-3 rounded relative  border my-[10px] min-w-[200px] ">
+
+
+
+    
+    <div className="p-3 rounded relative flex flex-col justify-center items-center max-w-fit   border my-[10px]  min-w-[150px] ">
         <div className=" p-4 max-w-[300px] ">
         <img src={items.Img} alt="" />
         </div>
