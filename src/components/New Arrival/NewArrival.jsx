@@ -61,23 +61,23 @@ export const NewArrival = () => {
         <div className="py-[50px] flex flex-row justify-center ">
        <div>
         <h1 className="uppercase my-[20px] p-1 text-center border-b-[4px] border-slate-500 shadow-lg w-fit font-myfont text-[25px] md:text-[40px] ">New arrival</h1>
-     <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 ">
+     <div className="grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 ">
 {
 newArrivalObj.map(items => (
 
 
 
     
-    <div className="p-3 rounded relative flex flex-col justify-center items-center max-w-fit   border my-[10px]  min-w-[150px] ">
+    <div className="md:p-3 p-1 rounded relative flex flex-col justify-center items-center max-w-fit   border my-[10px]  md:min-w-[150px] ">
         <div className=" p-4 max-w-[300px] ">
-        <img src={items.Img} alt="" />
+        <img src={items.Img} alt="" className="w-full" />
         </div>
-        <i className="absolute top-0 right-0 m-2 bg-Icon px-[10px] py-[2px] rounded text-slate-50 ">New</i>
+        <i className="absolute top-0 right-0 m-2 bg-Icon px-[10px] py-[2px] rounded-[2px] text-slate-50 ">New</i>
         <div className="flex absolute bottom-0 left-0 right-0  bg-Tp p-2 flex-row justify-between ">
-            <h1 className="md:text-[20px] text-[15px] text-white font-fonty uppercase ">{items.name}</h1>
+            <h1 className="md:text-[20px] text-[12px] text-white font-fonty uppercase ">{items.name}</h1>
             <div className="flex flex-row gap-2 items-center">
-            <AiFillHeart className="text-[25px] p-1  text-red-500 shadow rounded-full md:text-[30px]  "/>
-    <AiFillShopping className="text-[25px] p-1 text-white bg-slate-500 rounded-full  md:text-[35px] "/>
+            <AiFillHeart className="text-[20px] p-1  text-red-500 shadow rounded-full md:text-[30px]  "/>
+    <AiFillShopping className="text-[20px] p-1 text-white bg-slate-500 rounded-full  md:text-[35px] "/>
             </div>
         </div>
     </div>
