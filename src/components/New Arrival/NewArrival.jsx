@@ -61,7 +61,7 @@ export const NewArrival = () => {
         <div className="py-[50px] flex flex-row justify-center ">
        <div>
         <h1 className="uppercase my-[20px] p-1 text-center border-b-[4px] border-slate-500 shadow-lg w-fit font-myfont text-[25px] md:text-[40px] ">New arrival</h1>
-     <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 overflow-x-auto ">
+     <div className="grid  grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 ">
 {
 newArrivalObj.map(items => (
 
