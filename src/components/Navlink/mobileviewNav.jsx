@@ -30,7 +30,7 @@ const HideSideLink = ()  => {
     setSideLink('left-[-1000px]');
 }
     return(
-        <div className="lg:hidden flex flex-row py-[10px]  fixed top-0 left-0 right-0 w-full px-[20px] items-center overflow-x-hidden bg-Tp  gap-5 justify-around">
+        <div className="lg:hidden z-[20] flex flex-row py-[10px]  fixed top-0 left-0 right-0 w-full px-[20px] items-center overflow-x-hidden bg-Tp  gap-5 justify-around">
             <div className="font-myfont"><h1 className="uppercase text-slate-100 font-bold text-[20px] md:text-[30px] ">HomeDecor</h1></div>
 
 

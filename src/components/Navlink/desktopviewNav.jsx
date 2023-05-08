@@ -4,7 +4,7 @@ import {AiFillShopping, AiFillHeart} from 'react-icons/ai';
 import {BsSearch} from 'react-icons/bs';
 export const DesktopNav = () => {
     return(
-        <div className="lg:flex hidden flex-row py-[10px]  fixed top-0 left-0 right-0 w-full px-[20px] items-center overflow-x-hidden bg-Tp  gap-5 justify-around">
+        <div className="lg:flex hidden flex-row py-[10px] z-[20]  fixed top-0 left-0 right-0 w-full px-[20px] items-center overflow-x-hidden bg-Tp  gap-5 justify-around">
             <div className="font-myfont"><h1 className="uppercase text-slate-100 font-bold text-[30px] ">HomeDecor</h1></div>
 
 
