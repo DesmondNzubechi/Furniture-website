@@ -1,6 +1,16 @@
 import React, { useRef, useState } from "react";
 import {AiFillShopping, AiFillHeart} from 'react-icons/ai';
 import { Chairs } from "./Chair/Chair";
+import { Sofa } from "./Sofa/Sofa";
+import { Tables } from "./Table/Table";
+
+
+
+
+
+
+
+
 export const Livingroom = () => {
     return(
         <div className="py-[50px] px-[20px] ">
@@ -18,6 +28,8 @@ export const Livingroom = () => {
         </div>
         </div>
       <Chairs/>
+      <Sofa/>
+      <Tables/>
        </div>
         </div>
     )
