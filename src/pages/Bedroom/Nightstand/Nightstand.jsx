@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import {AiFillShopping, AiFillHeart} from 'react-icons/ai';
-import AbbeySmall from '../../../assets/Bedroom/Nightstand/Abbey-Small.avif';
+//import AbbeySmall from '../../../assets/Bedroom/Nightstand/Abbey-Small.avif';
 import Ackley from '../../../assets/Bedroom/Nightstand/Ackley.avif';
 import Colette from '../../../assets/Bedroom/Nightstand/Colette.avif';
 import Everson from '../../../assets/Bedroom/Nightstand/Isla.avif';
@@ -11,7 +11,7 @@ import Tina from '../../../assets/Bedroom/Nightstand/tina.avif';
 
 let Nightstand = [
     {
-        Img : AbbeySmall,
+        Img : Tina,
         name: 'Abbey Small',
         Price: 50,
         discount : 100,
