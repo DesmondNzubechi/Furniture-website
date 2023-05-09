@@ -75,7 +75,7 @@ Beds.map(items => (
 
     
     <div className=" rounded relative flex  flex-col justify-center items-center w-full rounded   shadow-2xl my-[10px]   ">
-        <div className=" max-w-[300px] m-0 max-h-[400px]  h-full ">
+        <div className=" max-w-[200px] m-0 max-h-[400px]  h-full ">
         <img src={items.Img} alt="" className="w-full p-0 h-full  " />
         </div>
        <div className="flex w-full  bottom-0 left-0 right-0  bg-black p-2  flex-row justify-between ">

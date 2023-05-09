@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { MobileNav } from './components/Navlink/mobileviewNav';
 import { Home } from './pages/Home/Home';
 import { Bedroom } from './pages/Bedroom/Bedroom';
-
+import { Livingroom } from './pages/Livingroom/Livingroom';
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +15,7 @@ function App() {
   <MobileNav/>
   <Home/>
   <Bedroom/>
+  <Livingroom/>
     </div>
     </BrowserRouter>
   

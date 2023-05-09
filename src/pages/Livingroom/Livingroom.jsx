@@ -1,9 +1,6 @@
 import React, { useRef, useState } from "react";
 import {AiFillShopping, AiFillHeart} from 'react-icons/ai';
-import { Bed } from "./Bed/Bed";
-import { Dressers } from "./Dresser/Dresser";
-import { Nightstands } from "./Nightstand/Nightstand";
-
+import { Chairs } from "./Chair/Chair";
 export const Livingroom = () => {
     return(
         <div className="py-[50px] px-[20px] ">
@@ -13,16 +10,14 @@ export const Livingroom = () => {
         <div>
             <span className="font-myfont text-[15px] md:text-[20px] flex flex-col gap-0 ">Filter Items</span>
         <select name="" id="" className="shadow-2xl bg-Tp text-slate-200 outline-none px-[10px] text-[12px]  md:text-[25px] font-fonty ">
-            <option value="All"> All Bedroom</option>
-            <option value="">Beds</option>
-            <option value="">Dressers</option>
-            <option value="">Nightstand</option>
+            <option value="All"> All Living Room</option>
+            <option value="Sofa">Sofa</option>
+            <option value="Chair">Chair</option>
+            <option value="Table">Table</option>
         </select>
         </div>
         </div>
-        <Bed/>
-        <Dressers/>
-        <Nightstands/>
+      <Chairs/>
        </div>
         </div>
     )
